@@ -1,19 +1,85 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="landingpage" content="freeCodeCamp Landing Page Challenge">
-        <meta name="author" content="George">
-        <meta name="keywords" content="HTML, Landing Page, freeCodeCamp">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <header>
-        <h1>Landing Page</h1>
-    </header>
-    // script for js to run the freeCodeCamp tests //
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <body>
-        <p>Hellow World</p>
-        <p>my name is George</p>
-    </body>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700">
+  </head>
+  <header id="header">
+      <img 
+           src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+           alt="original trombones logo"
+           id="header-img"
+           border="0"
+           width="300px;"
+           >
+    <nav id="nav-bar">
+      <h1> &nbsp; &nbsp; &nbsp;
+        <a class="nav-link" href="#features">Features</a></li> &nbsp; &nbsp; &nbsp;
+        <a class="nav-link" href="#how-it-works">How It Works</a></li> &nbsp; &nbsp; &nbsp;
+        <a class="nav-link" href="#pricing">Pricing</a></li> &nbsp; &nbsp;
+  </h1>
+    </nav>
+  </header>
+  <body>
+    <section id="features">
+      <h2>Premium Materials</h2>
+          <p>
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+      <br>
+      <h2>Fast Shipping</h2>
+          <p>
+            We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied. </p>
+      <br>
+      <h2>Quality Assurance</h2>
+          <p>
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+        </p>
+    </section>
+     <br>
+     <br>
+     <br>
+    <img class="image" src="https://images.unsplash.com/photo-1582043322834-4f32f068934e?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMzYyMDUwMg&ixlib=rb-1.2.1&q=85" alt="Product being used">
+    </img>
+     <br>
+     <br>
+     <br>
+    <section id="how-it-works">
+      <div id="storylayover" align="center" style="width: 100%; overflow: hidden">
+        <h2>Watch this video to see how it works!</h2>
+        <p>Enjoy the beautiful sound of your next adventure!</p>
+      <iframe
+        id="video"
+        height="315"
+        align:"center"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+        </div>
+    </section>
+     <br>
+     <br>
+     <br>
+<img class="image" src="https://images.unsplash.com/photo-1623783526605-0791af4e5377?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMzYyMTgxMg&ixlib=rb-1.2.1&q=85" alt="another image of products being used">
+</img>
+     <br>
+     <br>
+     <br>
+    <section id="pricing">
+      <h2>Speak to our Team, for products and pricing!</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Talk to us!" />
+    </form>
+    </section
+  </body>
 </html>
